@@ -4,7 +4,6 @@ import { coworker } from "../models/coworker";
 const express = require("express");
 const router = express.Router();
 
-// Get all products
 router.get("/:articleId", async (req: Request, res: Response) => {
   try {
     const articleView: {
